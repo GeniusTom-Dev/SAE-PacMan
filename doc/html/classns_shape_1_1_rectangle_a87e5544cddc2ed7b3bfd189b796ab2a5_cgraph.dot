@@ -1,0 +1,16 @@
+digraph "nsShape::Rectangle::draw"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="nsShape::Rectangle\l::draw",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Fonction pour afficher l'objet."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="nsGraphics::RGBAcolor\l::getAlpha",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_graphics_1_1_r_g_b_acolor.html#a76299c507a113e326c01fe4b0bca2b1e",tooltip="Récupère le taux de transparence."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="nsGraphics::RGBAcolor\l::getBlue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_graphics_1_1_r_g_b_acolor.html#a9ac0893426cce20a177d6ea7af1d7129",tooltip="Récupère le taux de bleu."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="nsGraphics::RGBAcolor\l::getGreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_graphics_1_1_r_g_b_acolor.html#a5f2dc1550c34149fc5cbc1629b54d7e4",tooltip="Récupère le taux de vert."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="nsGraphics::RGBAcolor\l::getRed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_graphics_1_1_r_g_b_acolor.html#a55e40085f904b696a0bc63aed6258b79",tooltip="Récupère le taux de rouge."];
+}

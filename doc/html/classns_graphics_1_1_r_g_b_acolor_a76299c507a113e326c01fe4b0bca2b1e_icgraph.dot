@@ -1,0 +1,24 @@
+digraph "nsGraphics::RGBAcolor::getAlpha"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="nsGraphics::RGBAcolor\l::getAlpha",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Récupère le taux de transparence."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="nsGui::Sprite::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_gui_1_1_sprite.html#ac4b29170aef06d46990b68da76480f28",tooltip="Fonction pour afficher l'objet."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="nsShape::Circle::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_shape_1_1_circle.html#a03be5cdd7d6a0feaa7d6b0a819389a7a",tooltip="Fonction pour afficher l'objet."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="nsShape::Line::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_shape_1_1_line.html#a593ce7771accbbe3bb0f0baf70ece47b",tooltip="Fonction pour afficher l'objet."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="nsShape::Rectangle\l::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_shape_1_1_rectangle.html#a87e5544cddc2ed7b3bfd189b796ab2a5",tooltip="Fonction pour afficher l'objet."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="nsShape::Triangle::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_shape_1_1_triangle.html#a5586345f4e15181f994a0d4946f61353",tooltip="Fonction pour afficher l'objet."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="MinGL::initGraphic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_min_g_l.html#a5962a0a0ced7879bc0cc65e267e8d7fc",tooltip="Initialise minGL et ouvre la fenêtre."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="MinGL::setBackgroundColor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_min_g_l.html#a4399b7615cea89f850cd5c66e428c367",tooltip="Règle la couleur de fond de la fenêtre."];
+}

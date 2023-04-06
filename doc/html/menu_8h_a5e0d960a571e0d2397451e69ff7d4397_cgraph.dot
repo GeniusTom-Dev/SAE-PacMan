@@ -1,0 +1,24 @@
+digraph "menuStart"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="menuStart",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MinGL::clearScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_min_g_l.html#a86c940758616957683ffb2e239bba774",tooltip="Efface l'écran avec la couleur de fond spécifiée."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MinGL::getWindowSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_min_g_l.html#a92bacd1567089fb4641ed7b416cfe74d",tooltip="Récupère la taille de la fenêtre."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="nsGraphics::Vec2D::getX",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_graphics_1_1_vec2_d.html#abcf3d729b05b3cd93e9eff21c74b89a1",tooltip="Récupère la position X (abscisse)"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="MinGL::isPressed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_min_g_l.html#a8f0833403a4fb3df8010c132e81b207f",tooltip="Renvoie l'état d'une touche du clavier (pressée ou non)"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="playLoopSound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$music_gest_8cpp.html#a3ab593f2f75b3770f8bf3071f72c3033",tooltip="Joue un sons en boucle."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="nsAudio::AudioEngine\l::setMusic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_audio_1_1_audio_engine.html#a6ef72eb80bef2c1b0764c40f629d2536",tooltip="Définit le fichier audio de la musique."];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="nsAudio::AudioEngine\l::startMusicFromBeginning",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_audio_1_1_audio_engine.html#ac1343ed3afe38eb80a222969f3d74d6d",tooltip="Relance la musique depuis le début."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="nsGui::Sprite::setPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_gui_1_1_sprite.html#a4c695910c46504d1e8d47b838394a48e",tooltip="Définit la nouvelle position du sprite."];
+}

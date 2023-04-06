@@ -1,0 +1,14 @@
+digraph "collide"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="collide",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="playLoopSound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$music_gest_8cpp.html#a3ab593f2f75b3770f8bf3071f72c3033",tooltip="Joue un sons en boucle."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="nsAudio::AudioEngine\l::setMusic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_audio_1_1_audio_engine.html#a6ef72eb80bef2c1b0764c40f629d2536",tooltip="Définit le fichier audio de la musique."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="nsAudio::AudioEngine\l::startMusicFromBeginning",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_audio_1_1_audio_engine.html#ac1343ed3afe38eb80a222969f3d74d6d",tooltip="Relance la musique depuis le début."];
+}

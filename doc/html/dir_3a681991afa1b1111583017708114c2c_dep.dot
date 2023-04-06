@@ -1,0 +1,11 @@
+digraph "/home/alexandre/Documents/sae_pacman/MinGL2/examples/02-Texte" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_39d26ed54e8d333b4c8e5b8996647edb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="examples" fontname="Helvetica", fontsize="10", URL="dir_39d26ed54e8d333b4c8e5b8996647edb.html"]
+  dir_3a681991afa1b1111583017708114c2c [shape=box, label="02-Texte", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_3a681991afa1b1111583017708114c2c.html"];
+  }
+  dir_ae291cc27e75980bdaeeec13fe1d2128 [shape=box label="include" fillcolor="white" style="filled" color="red" URL="dir_ae291cc27e75980bdaeeec13fe1d2128.html"];
+  dir_3a681991afa1b1111583017708114c2c->dir_ae291cc27e75980bdaeeec13fe1d2128 [headlabel="3", labeldistance=1.5 headhref="dir_000004_000013.html"];
+}

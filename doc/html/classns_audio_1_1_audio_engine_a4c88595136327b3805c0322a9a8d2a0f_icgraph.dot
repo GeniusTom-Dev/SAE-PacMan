@@ -1,0 +1,16 @@
+digraph "nsAudio::AudioEngine::loadSound"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="nsAudio::AudioEngine\l::loadSound",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Charge un fichier audio dans un buffer."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_min_g_l2_2examples_207-_audio_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="playOneTimeSound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$music_gest_8cpp.html#ae913a2940691f7a8016bc43c9b2c2d23",tooltip="Joue un sons une fois."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moovePacInMat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$movement_pacman_8cpp.html#a85b1dfc91033477c62b3a6dc5d5ef262",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",tooltip=" "];
+}

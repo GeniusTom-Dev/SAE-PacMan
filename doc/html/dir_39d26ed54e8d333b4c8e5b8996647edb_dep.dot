@@ -1,0 +1,33 @@
+digraph "/home/alexandre/Documents/sae_pacman/MinGL2/examples" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_294940efba15fec3d7d548da5df03057 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="MinGL2" fontname="Helvetica", fontsize="10", URL="dir_294940efba15fec3d7d548da5df03057.html"]
+  dir_ae291cc27e75980bdaeeec13fe1d2128 [shape=box label="include" fillcolor="white" style="filled" color="red" URL="dir_ae291cc27e75980bdaeeec13fe1d2128.html"];
+  subgraph clusterdir_39d26ed54e8d333b4c8e5b8996647edb {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_39d26ed54e8d333b4c8e5b8996647edb.html"];
+    dir_39d26ed54e8d333b4c8e5b8996647edb [shape=plaintext label="examples"];
+  dir_fdc377c52ccf2e16f05ab6016900f43c [shape=box label="00-Boilerplate" fillcolor="white" style="filled" URL="dir_fdc377c52ccf2e16f05ab6016900f43c.html"];
+  dir_f59f712a534de8984b67196b9f9b9ef1 [shape=box label="01-Shapes" fillcolor="white" style="filled" URL="dir_f59f712a534de8984b67196b9f9b9ef1.html"];
+  dir_3a681991afa1b1111583017708114c2c [shape=box label="02-Texte" fillcolor="white" style="filled" URL="dir_3a681991afa1b1111583017708114c2c.html"];
+  dir_861147fd7ecfa7ab66b019496b6c165e [shape=box label="03-Clavier" fillcolor="white" style="filled" URL="dir_861147fd7ecfa7ab66b019496b6c165e.html"];
+  dir_33483153633659fe00a206981071b6e8 [shape=box label="04-Souris" fillcolor="white" style="filled" URL="dir_33483153633659fe00a206981071b6e8.html"];
+  dir_b75d76ded19bde12676adb1b88b1b225 [shape=box label="05-Transition" fillcolor="white" style="filled" URL="dir_b75d76ded19bde12676adb1b88b1b225.html"];
+  dir_d411eb4a0f7b440b2256bd3d7d129ff2 [shape=box label="06-Sprite" fillcolor="white" style="filled" URL="dir_d411eb4a0f7b440b2256bd3d7d129ff2.html"];
+  dir_1c9478b7b2daa724d9e77a8b4c657ab0 [shape=box label="07-Audio" fillcolor="white" style="filled" URL="dir_1c9478b7b2daa724d9e77a8b4c657ab0.html"];
+  dir_7194bcd44d3b6000b0699344cd91859f [shape=box label="08-CustomDrawable" fillcolor="white" style="filled" URL="dir_7194bcd44d3b6000b0699344cd91859f.html"];
+  dir_c8612ebc5ea4d039561738804571c36d [shape=box label="09-CustomTransitionable" fillcolor="white" style="filled" URL="dir_c8612ebc5ea4d039561738804571c36d.html"];
+  }
+  }
+  dir_f59f712a534de8984b67196b9f9b9ef1->dir_ae291cc27e75980bdaeeec13fe1d2128 [headlabel="5", labeldistance=1.5 headhref="dir_000003_000013.html"];
+  dir_861147fd7ecfa7ab66b019496b6c165e->dir_ae291cc27e75980bdaeeec13fe1d2128 [headlabel="2", labeldistance=1.5 headhref="dir_000005_000013.html"];
+  dir_1c9478b7b2daa724d9e77a8b4c657ab0->dir_ae291cc27e75980bdaeeec13fe1d2128 [headlabel="3", labeldistance=1.5 headhref="dir_000009_000013.html"];
+  dir_c8612ebc5ea4d039561738804571c36d->dir_ae291cc27e75980bdaeeec13fe1d2128 [headlabel="6", labeldistance=1.5 headhref="dir_000011_000013.html"];
+  dir_7194bcd44d3b6000b0699344cd91859f->dir_ae291cc27e75980bdaeeec13fe1d2128 [headlabel="4", labeldistance=1.5 headhref="dir_000010_000013.html"];
+  dir_fdc377c52ccf2e16f05ab6016900f43c->dir_ae291cc27e75980bdaeeec13fe1d2128 [headlabel="1", labeldistance=1.5 headhref="dir_000002_000013.html"];
+  dir_3a681991afa1b1111583017708114c2c->dir_ae291cc27e75980bdaeeec13fe1d2128 [headlabel="3", labeldistance=1.5 headhref="dir_000004_000013.html"];
+  dir_33483153633659fe00a206981071b6e8->dir_ae291cc27e75980bdaeeec13fe1d2128 [headlabel="2", labeldistance=1.5 headhref="dir_000006_000013.html"];
+  dir_d411eb4a0f7b440b2256bd3d7d129ff2->dir_ae291cc27e75980bdaeeec13fe1d2128 [headlabel="2", labeldistance=1.5 headhref="dir_000008_000013.html"];
+  dir_b75d76ded19bde12676adb1b88b1b225->dir_ae291cc27e75980bdaeeec13fe1d2128 [headlabel="6", labeldistance=1.5 headhref="dir_000007_000013.html"];
+}

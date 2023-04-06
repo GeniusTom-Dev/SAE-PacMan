@@ -1,0 +1,16 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5 [label="std::exception",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="nsException::CException",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_exception_1_1_c_exception.html",tooltip="Classe pour créer des exceptions facilement."];
+  Node18 [label="nsUtil::IEditable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_util_1_1_i_editable.html",tooltip="Interface pour un objet injectable."];
+  Node18 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="nsGraphics::RGBAcolor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_graphics_1_1_r_g_b_acolor.html",tooltip="Classe représentant un couleur RGBA8888."];
+  Node18 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="nsGraphics::Vec2D",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_graphics_1_1_vec2_d.html",tooltip="Classe représentant un vecteur deux-dimensionnel."];
+}

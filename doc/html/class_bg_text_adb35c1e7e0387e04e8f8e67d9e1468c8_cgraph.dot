@@ -1,0 +1,12 @@
+digraph "BgText::setValues"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="BgText::setValues",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Définit les nouvelles valeurs pour l'ID spécifié"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="nsShape::Shape::setFillColor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_shape_1_1_shape.html#a6c0f6392753f72ed4c39424a83f7ed73",tooltip="Règle la couleur de remplissage."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="nsGui::Text::setTextColor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_gui_1_1_text.html#a9e10bb21647ce95f034a4205562e222a",tooltip="Définit la nouvelle couleur du texte."];
+}

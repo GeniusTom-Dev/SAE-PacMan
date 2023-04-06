@@ -1,0 +1,11 @@
+digraph "nsGui::Text"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="nsGui::Text",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Gère l'affichage d'un texte."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="nsGraphics::IDrawable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_graphics_1_1_i_drawable.html",tooltip="Interface pour un objet affichable."];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="nsTransition::ITransitionable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_transition_1_1_i_transitionable.html",tooltip="Une classe abstraite pour n'importe quelle élément pouvant effectuer une transition entre deux états."];
+}

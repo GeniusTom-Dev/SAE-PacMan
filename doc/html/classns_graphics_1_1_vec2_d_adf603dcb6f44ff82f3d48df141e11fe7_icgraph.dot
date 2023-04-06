@@ -1,0 +1,16 @@
+digraph "nsGraphics::Vec2D::computeMagnitude"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="nsGraphics::Vec2D::\lcomputeMagnitude",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Calcule la magnitude de ce vecteur."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="nsGraphics::Vec2D::\loperator\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_graphics_1_1_vec2_d.html#accfe96cfa5b8495a0b14c7087068064e",tooltip="Opérateur de stricte infériorité (Vérifie la stricte infériorité de la magnitude des deux vecteurs)"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="nsGraphics::Vec2D::\loperator\<=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_graphics_1_1_vec2_d.html#afd5e0e3ba77ef971f8d022d69a4a2647",tooltip="Opérateur d'infériorité (Vérifie l'infériorité de la magnitude des deux vecteurs)"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="nsGraphics::Vec2D::\loperator\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_graphics_1_1_vec2_d.html#a30da0e7984d8c3e7a66bbdcdcc24c9cb",tooltip="Opérateur de stricte supériorité (Vérifie la stricte supériorité de la magnitude des deux vecteurs)"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="nsGraphics::Vec2D::\loperator\>=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_graphics_1_1_vec2_d.html#a478dad2852611070874c6c9e5663b570",tooltip="Opérateur de supériorité (Vérifie la supériorité de la magnitude des deux vecteurs)"];
+}

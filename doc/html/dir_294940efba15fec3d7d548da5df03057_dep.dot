@@ -1,0 +1,15 @@
+digraph "/home/alexandre/Documents/sae_pacman/MinGL2" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_294940efba15fec3d7d548da5df03057 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_294940efba15fec3d7d548da5df03057.html"];
+    dir_294940efba15fec3d7d548da5df03057 [shape=plaintext label="MinGL2"];
+  dir_39d26ed54e8d333b4c8e5b8996647edb [shape=box label="examples" fillcolor="white" style="filled" color="red" URL="dir_39d26ed54e8d333b4c8e5b8996647edb.html"];
+  dir_ae291cc27e75980bdaeeec13fe1d2128 [shape=box label="include" fillcolor="white" style="filled" color="red" URL="dir_ae291cc27e75980bdaeeec13fe1d2128.html"];
+  dir_3785c8ddeb5801ba8a1eb564cf3952b5 [shape=box label="src" fillcolor="white" style="filled" color="red" URL="dir_3785c8ddeb5801ba8a1eb564cf3952b5.html"];
+  dir_42bb06d43e08f6df431dea2e374f8bbe [shape=box label="tools" fillcolor="white" style="filled" URL="dir_42bb06d43e08f6df431dea2e374f8bbe.html"];
+  }
+  dir_39d26ed54e8d333b4c8e5b8996647edb->dir_ae291cc27e75980bdaeeec13fe1d2128 [headlabel="34", labeldistance=1.5 headhref="dir_000001_000013.html"];
+  dir_3785c8ddeb5801ba8a1eb564cf3952b5->dir_ae291cc27e75980bdaeeec13fe1d2128 [headlabel="27", labeldistance=1.5 headhref="dir_000023_000013.html"];
+}

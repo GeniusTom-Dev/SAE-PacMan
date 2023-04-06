@@ -1,0 +1,31 @@
+digraph "main"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="nsEvent::EventManager\l::clearEvents",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_event_1_1_event_manager.html#adbc5ced9a9435f61f58436ff613632b4",tooltip="Vide la queue."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MinGL::clearScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_min_g_l.html#a86c940758616957683ffb2e239bba774",tooltip="Efface l'écran avec la couleur de fond spécifiée."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="MinGL::finishFrame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_min_g_l.html#a489922f0bdde2e38698adddaf57f6eda",tooltip="Préviens minGL que la frame est terminée."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="MinGL::getEventManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_min_g_l.html#ab558253439905930836ab4910a7ae253",tooltip="Récupère le gestionnaire d'évènements minGL."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="MinGL::initGlut",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_min_g_l.html#a17c7718b9e966c8147cd56483dcf4e8d",tooltip="Initialise la bibliothèque freeglut."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="MinGL::initGraphic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_min_g_l.html#a5962a0a0ced7879bc0cc65e267e8d7fc",tooltip="Initialise minGL et ouvre la fenêtre."];
+  Node7 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="nsGraphics::RGBAcolor\l::getAlpha",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_graphics_1_1_r_g_b_acolor.html#a76299c507a113e326c01fe4b0bca2b1e",tooltip="Récupère le taux de transparence."];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="nsGraphics::RGBAcolor\l::getBlue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_graphics_1_1_r_g_b_acolor.html#a9ac0893426cce20a177d6ea7af1d7129",tooltip="Récupère le taux de bleu."];
+  Node7 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="nsGraphics::RGBAcolor\l::getGreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_graphics_1_1_r_g_b_acolor.html#a5f2dc1550c34149fc5cbc1629b54d7e4",tooltip="Récupère le taux de vert."];
+  Node7 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="nsGraphics::RGBAcolor\l::getRed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_graphics_1_1_r_g_b_acolor.html#a55e40085f904b696a0bc63aed6258b79",tooltip="Récupère le taux de rouge."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="MinGL::isOpen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_min_g_l.html#a05a0da9d0729e9c7dbd1121b0956866d",tooltip="Retourne si la fenêtre est ouverte."];
+}

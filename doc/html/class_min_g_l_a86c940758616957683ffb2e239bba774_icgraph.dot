@@ -1,0 +1,19 @@
+digraph "MinGL::clearScreen"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="MinGL::clearScreen",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Efface l'écran avec la couleur de fond spécifiée."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="drawMatrix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$draw_8cpp.html#ae2000ec319fc7b29cdccf206a3d5e241",tooltip="Affichage de la matrice dans la fenêtre."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="MinGL::initGraphic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_min_g_l.html#a5962a0a0ced7879bc0cc65e267e8d7fc",tooltip="Initialise minGL et ouvre la fenêtre."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="menuStart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$menu_8cpp.html#a5e0d960a571e0d2397451e69ff7d4397",tooltip=" "];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

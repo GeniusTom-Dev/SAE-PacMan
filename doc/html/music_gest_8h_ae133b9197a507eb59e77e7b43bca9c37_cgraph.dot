@@ -1,0 +1,10 @@
+digraph "stopPlayedSound"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="stopPlayedSound",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Arrete ou relance un sons en boucle."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="nsAudio::AudioEngine\l::toggleMusicPlaying",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classns_audio_1_1_audio_engine.html#aba89263fc9f810bee40dcae229313883",tooltip="Met en pause ou relance la musique."];
+}

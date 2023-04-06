@@ -1,0 +1,11 @@
+digraph "/home/alexandre/Documents/sae_pacman/MinGL2/examples/07-Audio" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_39d26ed54e8d333b4c8e5b8996647edb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="examples" fontname="Helvetica", fontsize="10", URL="dir_39d26ed54e8d333b4c8e5b8996647edb.html"]
+  dir_1c9478b7b2daa724d9e77a8b4c657ab0 [shape=box, label="07-Audio", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1c9478b7b2daa724d9e77a8b4c657ab0.html"];
+  }
+  dir_ae291cc27e75980bdaeeec13fe1d2128 [shape=box label="include" fillcolor="white" style="filled" color="red" URL="dir_ae291cc27e75980bdaeeec13fe1d2128.html"];
+  dir_1c9478b7b2daa724d9e77a8b4c657ab0->dir_ae291cc27e75980bdaeeec13fe1d2128 [headlabel="3", labeldistance=1.5 headhref="dir_000009_000013.html"];
+}
